@@ -1,0 +1,33 @@
+<div class="container text-center" style="margin-top:2%
+">
+  <img src="../../assets/img/logo.png">
+</div>
+<div class="container-fluid text-center rbox">
+  <div class="registertop">
+    登陆
+  </div>
+  <div class="rsbox">
+
+    <div>
+      <ul>
+        <li><a class="a" [routerLink]="['./lopwd']" [routerLinkActive]="['a1']" id="a1">密码登陆</a></li>
+        <li><a class="a" [routerLink]="['./lophone']"  [routerLinkActive]="['a1']" id="a2">手机号登陆</a></li>
+      </ul>
+    </div>
+    <form action="">
+
+      <router-outlet></router-outlet>
+      <div class="forget">
+        <a href="" class="blue">老用户设置密码</a>
+        <a href="" class="blue">/</a>
+        <a href="" class="blue">忘记密码</a>
+      </div>
+
+      <div class="btn" >
+        <button type="submit" class="btn-lg btn-block login btnstyle" >登录</button>
+
+      </div>
+      <div class="pa">还没有账号？<a [routerLink]="['/register']" href="" class="blue">去注册</a></div>
+    </form>
+  </div>
+</div>

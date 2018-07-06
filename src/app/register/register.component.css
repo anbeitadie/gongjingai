@@ -1,0 +1,16 @@
+a:link,a:visited{color:#444;text-decoration:none;}
+.auto{margin: 0 auto;}
+.spanl{  position: absolute;  left:3%;  top: 10px;}
+input{text-indent: 1.5em;width: 100%;margin: 0 auto; }
+.pa{padding:2rem 0;}
+.pa2{padding:1rem 0;}
+.rbox{max-width: 420px;border: 1px solid #bdbdbd;margin-top
+:2%;padding:0 !important;}
+.rsbox{padding:0 70px !important;}
+.registertop{background: #f7f7f7;height: 35px;text-align: center;line-height:35px;}
+.blue{color:blue}
+.pore{position: relative}
+button{width: 48%;background: #3498db;
+  border: 0;}
+button:hover{background: #308cca}
+.btnstyle{background: #789fc3;color:#fff;cursor:pointer;}

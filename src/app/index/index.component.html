@@ -1,0 +1,44 @@
+<nav class="navbar">
+  <div class="container" style="padding-top: 4%;">
+    <a class="" ><img src="../../assets/img/logo.png"  class="img-fluid logoimg" alt=""></a>
+    <div class="rightbtn">
+      <a [routerLink]="['/login']"><button class="btn topbtn lobtn">登录</button></a>
+      <a [routerLink]="['/register']"><button class="btn topbtn regbtn">注册</button></a>
+    </div>
+  </div>
+</nav>
+<section>
+  <div class="container position-relative" id="sec">
+
+    <div class="row">
+      <div class="col-md-4 col-sm-12 col-xs-12">
+        <a [routerLink]="['/home-page']">
+        <div class="three blue text-center" >
+          <img src="../../assets/img/heart.png" alt="">
+          <p>患者版</p>
+      </div>
+        </a>
+      </div>
+      <div class="col-md-4 col-sm-12 col-xs-12">
+        <a href="">
+        <div class="three qing text-center">
+          <img src="../../assets/img/doctor.png" alt="">
+          <p>医生版</p>
+        </div>
+        </a>
+      </div>
+      <div class="col-md-4  col-sm-12 col-xs-12">
+        <a href="">
+        <div class="three green text-center">
+          <img src="../../assets/img/bianji.png" alt="">
+          <p>管理员</p>
+        </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="text-center position-absolute" style="bottom: 0;left:10%;">
+      <img src="../../assets/img/pro.png" class="img-fluid" alt="">
+    </div>
+  </div>
+</section>
